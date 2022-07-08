@@ -1,14 +1,14 @@
 # AgriPlus
 
-### AgriPlus is a web page that makes it easier to order farm produce from farmers, harvesters and producers directly.
+#### AgriPlus is a web page that makes it easier to order farm produce from farmers, harvesters and producers directly.
 
 # Getting Started
 
-### These instructions will get you a copy of the project on your local machine.
+#### These instructions will get you a copy of the project on your local machine.
 
 # Prerequisites
 
-## The tools you need before cloning the repository
+#### The tools you need before cloning the repository:
 
 - [Git](https://git-scm.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
