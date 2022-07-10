@@ -1,0 +1,48 @@
+#logo {
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+nav {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav-center {
+    display: flex;
+    flex-direction: left;
+}
+
+#home {
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #ED661F;
+}
+
+#about {
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    color: #FFF;
+    text-decoration: none;
+    
+}
+
+#products {
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#contact-us {
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    color: #FFF;
+    text-decoration: none;
+}
