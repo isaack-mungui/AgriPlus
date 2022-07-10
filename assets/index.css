@@ -109,3 +109,9 @@ button > #explore-more {
     text-decoration: underline;
     text-decoration-color: #ED661F;
 }
+
+#exist-image {
+    float: right;
+    width: 720px;
+    height: 480px;
+}
