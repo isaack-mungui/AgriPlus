@@ -1,20 +1,27 @@
+/* Navbar */
+
 #logo {
     font-family: 'Inter', sans-serif;
-    font-weight: bolder;
+    font-weight: 700;
     color: white;
 }
 
-nav {
+.nav-container {
     font-family: 'Inter', sans-serif;
     color: white;
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
     background-color: black;
+    align-items: center;
 }
 
-nav-center {
+.nav-center {
+    /* align-items: center; */
+    /* padding: 60px; */
     display: flex;
-    flex-direction: left;
+    /* justify-content: space-around; */
+    padding-right: 60px;
 }
 
 #home {
@@ -45,4 +52,60 @@ nav-center {
     font-weight: bolder;
     color: #FFF;
     text-decoration: none;
+}
+
+#login {
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#get-started {
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    color: #FFF;
+}
+
+/* General styling for buttons */
+
+button {
+    background-color: #ED661F;
+    color: white;
+}
+
+/* Description Page */
+
+main {
+    font-family: 'Inter', sans-serif;
+}
+
+#description-heading {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#description-subheading {
+    font-size: 25px;
+}
+
+button > #explore-more {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    padding: 30px;
+    margin: 30px;
+}
+
+.description-page {
+    background-image: url("./image 1.png")
+}
+
+
+/* Why we exist page */
+#exist {
+    text-decoration: underline;
+    text-decoration-color: #ED661F;
 }
