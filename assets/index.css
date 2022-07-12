@@ -90,31 +90,58 @@ button {
 
 /* Description Page */
 
-main {
-    font-family: 'Inter', sans-serif;
-}
-
 #description-heading {
-    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     font-size: 40px;
+    padding: 60px 0 0 50px;
 }
 
 #description-subheading {
+    font-family: 'Inter', sans-serif;
     font-size: 25px;
+    padding: 0 0 10px 50px;
 }
 
-button > #explore-more {
-    font-family: 'Inter', sans-serif;
+#explore-more-button {
+    padding: 15px;
+    float: left;
+    position: relative;
+    left: 50px;
+}
+
+#explore-more {
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 20px;
     color: #FFF;
     text-decoration: none;
-    padding: 30px;
-    margin: 30px;
+    padding: 0 0 300px 0;
 }
 
 .description-page {
-    background-image: url("./image 1.png");
+    background-image: url("../assets/image 1.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.stats-card {
+    display: flex;
+    justify-content: center;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #FFF;
+    position: relative;
+    top: 100px;
+}
+
+.stats-container > h4 {
+    padding: 40px;
 }
 
 
