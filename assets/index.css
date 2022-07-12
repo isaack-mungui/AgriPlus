@@ -180,7 +180,6 @@ button {
     /* bottom: 5px solid #ED661F; */
 }
 
-
 #categories-text {
     font-family: 'Inter', sans-serif;
     text-align: center;
@@ -220,3 +219,24 @@ img {
     /* bottom: 500px; */
 }
 
+/* Customer Review section */
+#reviews-heading {
+    font-family: 'Poppins', sans-serif;
+    padding: 50px;
+}
+
+.customer-reviews {
+    display: flex;
+    padding-left: 50px;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.reviews-image {
+    width: 40%;
+}
+
+#reviews-clickable {
+    float: right;
+}
