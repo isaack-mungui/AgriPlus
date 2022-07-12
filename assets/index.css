@@ -174,7 +174,6 @@ button {
 /* Product Categories section */
 
 #categories-heading {
-    /* display: flex; */
     font-family: 'Poppins', sans-serif;
     text-align: center;
     padding-top: 30px;
@@ -197,10 +196,27 @@ button {
     display: flex;
     justify-content: flex-start;
     padding-left: 50px;
-    justify-content: end;
 }
 
+/* General styling for images */
 img {
     width: 75%;
+}
+
+.newest-items {
+    display: flex;
+    padding: 10px 50px;
+}
+
+/* Newest Item Section */
+#newest-item-heading {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 50px;
+}
+
+#newest-item-click {
+    float: right;
+    /* position: absolute; */
+    /* bottom: 500px; */
 }
 
