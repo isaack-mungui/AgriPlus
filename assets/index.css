@@ -170,3 +170,37 @@ button {
     width: 675px;
     height: 450px;
 }
+
+/* Product Categories section */
+
+#categories-heading {
+    /* display: flex; */
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    /* bottom: 5px solid #ED661F; */
+}
+
+
+#categories-text {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#most-popular-heading {
+    font-family: 'Poppins', sans-serif;
+    padding: 50px;
+}
+
+.popular-categories {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+    justify-content: end;
+}
+
+img {
+    width: 75%;
+}
+
