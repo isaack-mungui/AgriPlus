@@ -138,6 +138,7 @@ button {
     background-color: #FFF;
     position: relative;
     top: 100px;
+    outline-style: outset;
 }
 
 .stats-container > h4 {
@@ -147,12 +148,25 @@ button {
 
 /* Why we exist page */
 #exist {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
     text-decoration: underline;
     text-decoration-color: #ED661F;
+    text-underline-offset: 0.1em;
+    padding: 200px 10px 0 50px;
+}
+
+#exist-text {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    padding: 0 10px 50px 50px;
 }
 
 #exist-image {
-    float: right;
-    width: 720px;
-    height: 480px;
+    position: absolute;
+    top: 900px;
+    right: 10px;
+    width: 675px;
+    height: 450px;
 }
