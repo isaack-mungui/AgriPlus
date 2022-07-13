@@ -254,6 +254,7 @@ img {
     display: flex;
     justify-content: center;
     padding-top: 60px;
+    background-
 }
 
 #footer-subheader {
@@ -285,10 +286,61 @@ img {
     height: 34px;
 }
 
-#subscribe-text {
+/* #subscribe-text {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    /* font-size: 20px; */
+    font-size: 20px;
     padding: -30px;
     color: #FFF;
+} */
+
+i {
+    color: #FFF;
+    width: 20%;
+    height: 20%;
+}
+
+.footer-break {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+}
+
+.footer-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-header-logo {
+    padding: 100px;
+}
+
+.store-button {
+    display: flex;
+    width: 20%;
+    height: 15%;
+}
+
+.company-container {
+    display: flex;
+    justofy-content: space-between;
+    padding-right: 80px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+}
+
+.others-container {
+    padding-right: 100px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    text-align: center;
+    padding: 40px;
 }
