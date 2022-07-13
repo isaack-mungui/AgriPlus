@@ -253,8 +253,7 @@ img {
     font-size: 25px;
     display: flex;
     justify-content: center;
-    padding-top: 60px;
-    background-
+    padding: 60px 0 0 60px;
 }
 
 #footer-subheader {
@@ -275,15 +274,16 @@ img {
 #form-field {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 15px 5px 50px;
 }
 
 #subscribe {
     position: absolute;
     right: 550px;
-    padding: 5px 15px 5px 5px;
+    padding: 8px 20px 20px 20px;
     width: 140px;
     height: 34px;
+    font-size: 14px;
 }
 
 /* #subscribe-text {
@@ -302,18 +302,19 @@ i {
 
 .footer-break {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-family: 'Poppins', sans-serif;
     color: #FFF;
+    padding: 50px;
 }
 
-.footer-details {
-    display: flex;
-    justify-content: space-between;
+.footer-left {
+    padding: ;
 }
 
 .footer-header-logo {
-    padding: 100px;
+    font-size: 20px;
+    padding: 40px;
 }
 
 .store-button {
@@ -322,20 +323,30 @@ i {
     height: 15%;
 }
 
-.company-container {
+.footer-details {
     display: flex;
+    justify-content: space-evenly;
+    padding-right: 100px;
+    font-size: 20px;
+}
+
+.company-container {
     justofy-content: space-between;
-    padding-right: 80px;
+    padding: 40px;
 }
 
 .product-container {
     display: flex;
     justify-content: space-between;
-    padding-right: 80px;
+    padding: 40px;
+}
+
+.products {
+    font-family: 'Poppins', sans-serif;
 }
 
 .others-container {
-    padding-right: 100px;
+    padding: 40px;
 }
 
 h3 {
@@ -343,4 +354,10 @@ h3 {
     color: #FFF;
     text-align: center;
     padding: 40px;
+}
+
+.link {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #FFF;
 }
